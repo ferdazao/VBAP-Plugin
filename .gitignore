@@ -1,3 +1,7 @@
+# Generados por Projucer a partir de VBAP.jucer
 **/Builds
 **/JuceLibraryCode
 **/.DS_Store
+
+# Generado por Visual Studio al abrir la carpeta CMake de Eigen
+ThirdParty/eigen/CMakeSettings.json
