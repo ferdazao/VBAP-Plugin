@@ -2,7 +2,7 @@
 
 Plugin de audio (VST3 / AU / Standalone) desarrollado en JUCE y C++ que implementa **VBAP (Vector Base Amplitude Panning)** sobre una configuración mínima funcional de tres altavoces (L, C, R).
 
-Es el componente de software del trabajo de grado **"Evaluación de mejora de la percepción en audio espacial mediante VBAP para un auditorio"** (Ingeniería de Sonido, Universidad de San Buenaventura, Bogotá, 2026). El plugin es la herramienta con la que se generaron los estímulos de las pruebas subjetivas de escucha; el objeto de estudio es la evaluación perceptual, no el software en sí mismo.
+Es el componente de software del trabajo de grado **"Evaluación de mejora de la percepción en audio espacial mediante la implementación de la técnica Vector Base Amplitude Panning para un auditorio en la Universidad San Buenaventura sede Bogotá"** (Ingeniería de Sonido, Universidad de San Buenaventura, Bogotá, 2026). El plugin es la herramienta con la que se generaron los estímulos de las pruebas subjetivas de escucha; el objeto de estudio es la evaluación perceptual, no el software en sí mismo.
 
 - **Autores:** Bruno Acero, Fernando Daza, Juan Andrés Trujillo
 - **Asesor:** Jonnathan Montenegro
