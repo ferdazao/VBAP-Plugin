@@ -7,6 +7,14 @@ Es el componente de software del trabajo de grado **"Evaluación de mejora de la
 - **Autores:** Bruno Acero, Fernando Daza, Juan Andrés Trujillo
 - **Asesor:** Jonnathan Montenegro
 
+## Instaladores
+
+Los binarios ya compilados están en [`Plugin_VBAP_v1.0.0/`](Plugin_VBAP_v1.0.0/): VST3 y Audio Unit para macOS (Apple Silicon) y VST3 para Windows x64. Para usar el plugin no hace falta compilar nada, basta copiar el bundle a la carpeta de plugins del sistema.
+
+Las instrucciones de instalación de cada plataforma están en el [README de esa carpeta](Plugin_VBAP_v1.0.0/README.md). En macOS es importante quitar el atributo de cuarentena después de copiar, porque los binarios están firmados solo *ad-hoc* y sin eso el DAW los rechaza.
+
+Quien necesite compilar desde el código fuente (por ejemplo para un Mac Intel) puede ver la sección [Compilación](#compilación).
+
 ## Alcance
 
 El sistema implementa VBAP con **tres altavoces**, que es la configuración mínima con la que la técnica define un triángulo de reproducción. Está pensado para un recinto pequeño (auditorio 309 "Guillermo de Ockham", 11.7 × 8.99 × 2.4 m, T30mid ≈ 0.6 s) y tiene un **sweet spot limitado**, con fuerte dependencia de la posición del oyente y de la geometría del montaje. No pretende equivalencia con sistemas inmersivos de mayor densidad de canales.
@@ -81,6 +89,7 @@ Source/
   PluginEditor.*       GUI: vista 3D, cámara orbital, sliders y medidores
 ThirdParty/eigen/      Eigen 3 (vendorizado)
 VBAP.jucer             Proyecto de Projucer
+Plugin_VBAP_v1.0.0/    Binarios compilados listos para instalar (macOS arm64 y Windows x64)
 ```
 
 Identificadores del plugin: bundle ID `com.usbbogota.VBAP`, código de fabricante `USBb`, código de plugin `Vbap`, categoría VST3 `Fx|Spatial|Surround`.
